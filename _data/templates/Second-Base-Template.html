@@ -1,0 +1,24 @@
+id: 3
+templatename: 'Second Base Template'
+properties: 'a:0:{}'
+
+-----
+
+<html>
+<head>
+<title>[[++site_name]] - [[*pagetitle]]</title>
+<base href="[[++site_url]]" />
+<style type="text/css">
+  .container {
+     max-width: 250px;
+     background-color: #ddd;
+  }
+.container p { color: green; }
+</style>
+</head>
+<body>
+  <div class="container">
+    [[*content]]
+  </div>
+</body>
+</html>
