@@ -4,4 +4,5 @@ assets/components/
 core/components/
 ht.access
 config.core.php
+config.inc.php
 .DS_Store
