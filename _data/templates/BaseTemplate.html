@@ -1,6 +1,6 @@
 id: 1
 templatename: BaseTemplate
-properties: null
+properties: 'a:0:{}'
 
 -----
 
@@ -8,8 +8,16 @@ properties: null
 <head>
 <title>[[++site_name]] - [[*pagetitle]]</title>
 <base href="[[++site_url]]" />
+<style type="text/css">
+  .container {
+     max-width: 250px;
+     background-color: #ddd;
+  }
+</style>
 </head>
 <body>
-[[*content]]
+  <div class="container">
+    [[*content]]
+  </div>
 </body>
 </html>
