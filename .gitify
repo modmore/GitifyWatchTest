@@ -41,5 +41,8 @@ environments:
     modmore.dev:
         name: Development
         branch: develop
+    projects:
+        name: Development
+        branch: develop
     defaults:
         auto_commit_and_push: false
